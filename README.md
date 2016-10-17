@@ -1,4 +1,4 @@
-# A Angular2 Template 
+# Angular2 Redux Template 
 
 An Angular2 project template with Redux and webpack 
 
