@@ -16,7 +16,15 @@ git clone https://github.com/tucsonSun/angular-2-redux-webpack.git
 ```
 npm install
 ```
-3: Start server (includes auto refreshing) and gulp watcher
+3. Run Build target
+```
+npm run build
+```
+4: Run dev
+```
+npm dev
+```
+5: Start server (includes auto refreshing) and gulp watcher
 ```
 npm start
 ```
