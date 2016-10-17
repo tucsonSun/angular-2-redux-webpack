@@ -24,7 +24,7 @@ npm run build
 ```
 npm dev
 ```
-5: Start server (includes auto refreshing) and gulp watcher
+5: Start server 
 ```
 npm start
 ```
