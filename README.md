@@ -1,3 +1,5 @@
-# Trendy Brunch
+# A Angular2 Template 
 
-A multi-reducer Redux example with Angular 2 and [ng2-redux](https://github.com/angular-redux/ng2-redux).
+An Angular2 project template with Redux and webpack 
+
+[ng2-redux](https://github.com/angular-redux/ng2-redux).
