@@ -1,6 +1,6 @@
-import { List, Record, fromJS } from 'immutable';
-import { ITables, ITable, TableRecord } from './tables.types';
-import { INITIAL_STATE } from './tables.initial-state';
+import {List, Record, fromJS} from 'immutable';
+import {ITables, ITable, TableRecord} from './tables.types';
+import {INITIAL_STATE} from './tables.initial-state';
 
 import {
   PARTY_SEATED,
@@ -40,8 +40,7 @@ export function tableReducer(state: ITables = INITIAL_STATE, action): ITables {
       return state.updateIn([tableIndex, 'order', action.payload.menuId], 0,
         value => value === 0 ? 0 : value - 1);
     case BILL_PAID:
-      return state.setIn([tableIndex, 'status'], DIRTY).
-        setIn([tableIndex, 'order'], fromJS({}));
+      return state.setIn([tableIndex, 'status'], DIRTY).setIn([tableIndex, 'order'], fromJS({}));
     case TABLE_CLEANED:
       return state.setIn([tableIndex, 'status'], CLEAN);
     case ORDER_COMPLETED:
